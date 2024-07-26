@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+<div class="about-section"></div>
+   <h1>About Us Page</h1>
+    <p>we ae a hardworking team called KOTAAO who wanted to restore friendship and settle disputes over what artist is better wether your a swiftie and your friends a Kanye, we can decide what artist is overall better based on many different factors.</p>
+    <p>Resize the browser window to see that this page is responsive by the way.</p>
+  </div>
+  
+  <h2 style="text-align:center">Our Team</h2>
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="https://uk.images.search.yahoo.com/images/view;_ylt=AwrFYUuldqNm.a0Y5iBNBQx.;_ylu=c2VjA3NyBHNsawNpbWcEb2lkAzlhMWI0N2Y5N2ZiYzU1NDVmNThjZTVjYTVhZWQ4ZGMyBGdwb3MDMQRpdANiaW5n?back=https%3A%2F%2Fuk.images.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Draised%2Beyebrow%2Bemoji%26type%3DE210GB1274G0%26fr%3Dmcafee%26fr2%3Dpiv-web%26tab%3Dorganic%26ri%3D1&w=1024&h=1024&imgurl=static-00.iconduck.com%2Fassets.00%2Fface-with-raised-eyebrow-emoji-1024x1024-7dqrlx18.png&rurl=https%3A%2F%2Ficonduck.com%2Femojis%2F186657%2Fface-with-raised-eyebrow&size=418.3KB&p=raised+eyebrow+emoji&oid=9a1b47f97fbc5545f58ce5ca5aed8dc2&fr2=piv-web&fr=mcafee&tt=%26quot%3BFace+with+Raised+Eyebrow%26quot%3B+Emoji+-+Download+for+free+%E2%80%93+Iconduck&b=0&ni=21&no=1&ts=&tab=organic&sigr=sycSunwCVgH_&sigb=gAzfnvJjrMwZ&sigi=6C4xeTYAaGSx&sigt=BJ1QKqSQBJU8&.crumb=hLoVEoTYNW5&fr=mcafee&fr2=piv-web&type=E210GB1274G0" alt="Orla" style="width:100%">
+        <div class="container">
+          <h2>Orla Keenan</h2>
+          <p class="title">CEO & Founder</p>
+          <p>I am a dedicated leader and Im a big Smiths lover and Queen but out of the top 50 my favrouite is Kenderik Lamar.</p>
+          <p>OrlaKeenan@KOTAAO.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="column">
+      <div class="card">
+        <img src=""https://tse1.mm.bing.net/th?id=OIP.ozmJTTW1A_Y8_GCzikTEBAHaE0&pid=Api&P=0&h=180 alt="Olaoluwa" style="width:100%">
+        <div class="container">
+          <h2>Olaoluwa</h2>
+          <p class="title">technical director</p>
+          <p>I am a confident and friendy worker, I am very good with tech stuff.</p>
+          <p>Olaoluwa.Erinfolami@KOTAAO.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="column">
+      <div class="card">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.YhPPfywKGuHP9wq8sHv1YQHaHa&pid=Api&P=0&h=180 alt="Thea" style="width:100%">
+        <div class="container">
+          <h2>Thea Sibanda</h2>
+          <p class="title">web designer</p>
+        <p>i am confident, well spoken, persistent, driven and hard working</p>
+          <p>TheaSibanda@KOTAAO.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
