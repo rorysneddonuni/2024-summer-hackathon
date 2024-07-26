@@ -1,0 +1,28 @@
+body{
+    background-color:black;
+    font-family:cursive;
+    font-size:25px;
+    color:white
+}
+ul {
+    list-style-type:none;
+}
+li{
+    float:left;
+    display:block;
+    text-align:center;
+    padding:14px 16px;
+}
+h1{
+    text-align:center;
+}
+p{
+    text-align:left;
+}
+li a:hover{
+    color:green
+
+}
+button{
+    color:green;
+}
